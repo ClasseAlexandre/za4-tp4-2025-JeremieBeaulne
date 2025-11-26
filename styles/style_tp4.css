@@ -1,0 +1,121 @@
+body {
+    background-color:rgb(208, 216, 218);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(28, 41, 65);
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-principal {
+    width: 80%;
+    margin: auto;
+}
+
+p.index {
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6, img {
+    display: block;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+h2.index {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(57, 118, 151);
+    text-decoration-thickness: 2px;
+    margin-bottom: 10px;
+}
+
+img.index {
+    border-radius: 15px; 
+    display: block;
+    margin: auto;
+}
+
+#titre-boutique {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(57, 118, 151);
+    text-decoration-thickness: 2px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+#titre-boutique:hover {
+    color: rgb(55, 127, 195);
+}
+
+table {
+    margin: auto;
+}
+
+#liste-caracteristiques {
+    padding: 0px;
+    text-align: left;
+    list-style-type: none;
+}
+
+li.index {
+    background-color: rgb(192, 205, 212);
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#liste-liens {
+    text-align: left;
+}
+
+#lien-cgu {
+    color:rgb(38, 73, 107);
+    text-decoration: none;
+}
+
+#lien-cgu:hover {
+    text-decoration: underline;
+}
+
+table.jeux {
+    width: 320px;
+    margin: auto;
+}
+
+#titre-tableau {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.colonne-4 {
+    padding: 10px;
+}
+
+.image-jeu {
+    border-radius: 12px;
+}
+
+.bouton-acheter {
+    background-color: rgb(153, 169, 199);
+    color: rgb(29, 27, 85);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 12px;
+    height: 50px;
+    width: 100%;
+    border: none;
+}
+
+.bouton-acheter:hover {
+    background-color: rgb(124, 147, 190);
+}
